@@ -30,5 +30,6 @@ This project leverages [FastAPI](https://github.com/tiangolo/full-stack-fastapi-
   framework. 
 
 ### 5G Specification
-This service has been created following the ETSI 
-[specification](https://www.etsi.org/deliver/etsi_ts/129500_129599/129510/15.03.00_60/ts_129510v150300p.pdf).
+This service has been created following the 
+[ETSI specification for the NRF](https://www.etsi.org/deliver/etsi_ts/129500_129599/129510/15.03.00_60/ts_129510v150300p.pdf).
+Some common data models are also taken from this [specification sheet](https://www.etsi.org/deliver/etsi_ts/129500_129599/129571/15.03.00_60/ts_129571v150300p.pdf) from ETSI.

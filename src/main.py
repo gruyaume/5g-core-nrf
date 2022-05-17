@@ -2,12 +2,12 @@ from fastapi import FastAPI, Request, status
 from fastapi.encoders import jsonable_encoder
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
-from api.v1.api import api_router
-from core.config import settings
+
+from api.nnrf_nfm.v1.api import api_router
 
 app = FastAPI()
 
-app.include_router(api_router, prefix=settings.API_V1_STR)
+app.include_router(api_router)
 
 
 @app.exception_handler(RequestValidationError)
