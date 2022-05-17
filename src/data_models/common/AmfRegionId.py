@@ -1,0 +1,2 @@
+class AmfRegionId(str):
+    pass

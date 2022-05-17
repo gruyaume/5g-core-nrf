@@ -1,0 +1,2 @@
+class Uinteger(int):
+    pass

@@ -1,0 +1,2 @@
+class Mcc(str):
+    pass

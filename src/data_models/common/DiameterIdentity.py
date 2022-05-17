@@ -1,0 +1,2 @@
+class DiameterIdentity(str):
+    pass

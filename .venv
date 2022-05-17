@@ -1,0 +1,18 @@
+DOMAIN=localhost
+
+
+PROJECT_NAME={{cookiecutter.project_name}}
+SECRET_KEY={{cookiecutter.secret_key}}
+FIRST_SUPERUSER={{cookiecutter.first_superuser}}
+FIRST_SUPERUSER_PASSWORD={{cookiecutter.first_superuser_password}}
+
+# Postgres
+POSTGRES_SERVER=db
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD={{cookiecutter.postgres_password}}
+POSTGRES_DB=app
+
+# PgAdmin
+PGADMIN_LISTEN_PORT=5050
+PGADMIN_DEFAULT_EMAIL={{cookiecutter.pgadmin_default_user}}
+PGADMIN_DEFAULT_PASSWORD={{cookiecutter.pgadmin_default_user_password}}

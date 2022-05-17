@@ -1,0 +1,2 @@
+class AmfId(str):
+    pass

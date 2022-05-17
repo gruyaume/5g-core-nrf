@@ -1,0 +1,2 @@
+class NfInstanceId(str):
+    pass

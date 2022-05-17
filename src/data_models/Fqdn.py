@@ -1,0 +1,2 @@
+class Fqdn(str):
+    pass
